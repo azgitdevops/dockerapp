@@ -21,7 +21,7 @@ steps:
   displayName: 'Push Docker image to Azure Container Registry'
   inputs:
     containerRegistry: 'finapp'  # Replace with your ACR connection name
-    repository: 'finapp.azurecr.io/hello-world'  # Replace with your ACR name and desired image name
+    repository: 'finapp.azurecr.io/hello-world'  # Replace with your ACR-name name and desired image name
     command: 'push'
     tags: |
       latest
