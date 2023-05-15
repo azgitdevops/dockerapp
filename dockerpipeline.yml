@@ -11,7 +11,7 @@ variables:
   - name: dockerfile
     value: '$(Build.SourcesDirectory)/dockerimage/Dockerfile'
   - name: containerRegistry
-    value: 'finapp'
+    value: 'finapp.azurecr.io'
 
 stages :
   - stage: Build
